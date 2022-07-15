@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "name": "Leche",
+      "price": 75000,
+      "amount": 2,
+      "id": 1,
+      "url": "https://img.freepik.com/free-photo/plant-based-milk-as-alternatives-dairy_23-2149307786.jpg?t=st=1657139097~exp=1657139697~hmac=63d4c64f61e7b354e9c556c29c38232fbc8463574d01df3d3affc3efa34be245&w=740"
+    },
+    {
+      "name": "Cereal",
+      "price": 85300,
+      "amount": 3,
+      "id": 2,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/1270745-800-auto?v=637185941873970000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Huevos",
+      "price": 75000,
+      "amount": 12,
+      "id": 3,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/13315417-800-auto?v=637911315952000000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Carne",
+      "price": 85300,
+      "amount": 21,
+      "id": 4,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/13226854-800-auto?v=637903013565100000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Queso",
+      "price": 75000,
+      "amount": 8,
+      "id": 5,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/12082646-800-auto?v=637826593025400000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Arroz",
+      "price": 85300,
+      "amount": 9,
+      "id": 6,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/13174707-800-auto?v=637899459226230000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Frijoles",
+      "price": 85300,
+      "amount": 32,
+      "id": 7,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/13174729-800-auto?v=637899459434200000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Lentejas",
+      "price": 175000,
+      "amount": 42,
+      "id": 8,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/13174757-800-auto?v=637899459662800000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Avena",
+      "price": 85300,
+      "amount": 56,
+      "id": 9,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/12907524-800-auto?v=637884248942230000&width=800&height=auto&aspect=true"
+    },
+    {
+      "name": "Pollo",
+      "price": 375000,
+      "amount": 23,
+      "id": 10,
+      "url": "https://exitocol.vtexassets.com/arquivos/ids/7015343-800-auto?v=637509607679100000&width=800&height=auto&aspect=true"
+    }
+  ]
+}

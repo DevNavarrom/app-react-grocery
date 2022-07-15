@@ -1,0 +1,16 @@
+.container {
+  flex: 1;
+  flex-direction: column;
+}
+.container #children {
+  flex: 1;
+  padding: 20px;
+}
+.container #children .child {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=_layout.css.map */

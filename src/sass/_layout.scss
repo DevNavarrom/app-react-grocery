@@ -1,0 +1,16 @@
+@use './mixins';
+
+
+.container {
+    flex: 1;
+    flex-direction: column;
+
+    #children {
+        flex: 1;
+        padding: 20px;
+
+        .child {
+            @include mixins.flexible(flex, column, nowrap, center, center);
+        }
+    }
+}

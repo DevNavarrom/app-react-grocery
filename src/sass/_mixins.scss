@@ -1,0 +1,57 @@
+
+@mixin device ($breakpoint) {
+    @if $breakpoint == tablet {
+        @media only screen and (max-width: 680px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == mobile {
+        @media only screen and (max-width: 481px) {
+            @content;
+        }
+    }
+}
+
+@mixin flexible ($display, $direction, $corte, $justify, $align) {
+    display: $display;
+    flex-flow: $direction $corte;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flexible-wrap ($display, $corte) {
+    display: $display;
+    flex-wrap: $corte;
+    gap: 1rem;
+}
+
+@mixin grid ($columns, $space) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $space;
+}
+
+@mixin texts ($size, $weight, $inline, $wrap, $color) {
+    font-size: $size;
+    font-weight: $weight;
+    inline-size: $inline;
+    overflow-wrap: $wrap;
+    color: $color;
+    margin: 0;
+}
+
+@mixin button-round($back-color, $color-hover) {
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: $back-color;
+    padding: 10px;
+
+    @include flexible(flex, row, nowrap, center, center);
+
+    &:hover{
+        background-color: $color-hover;
+    }
+}
